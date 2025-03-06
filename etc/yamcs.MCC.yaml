@@ -25,10 +25,22 @@ services:
   - class: org.yamcs.timeline.TimelineService
 
 dataLinks:
-  - name: udp-in
+  - name: ENV-udp-in
     class: org.yamcs.tctm.UdpTmDataLink
     stream: tm_realtime
     port: 10015
+    packetPreprocessorClassName: com.example.myproject.MyPacketPreprocessor
+    
+  - name: BM-udp-in
+    class: org.yamcs.tctm.UdpTmDataLink
+    stream: tm_realtime
+    port: 10016
+    packetPreprocessorClassName: com.example.myproject.MyPacketPreprocessor
+    
+  - name: Emergencies-udp-in
+    class: org.yamcs.tctm.UdpTmDataLink
+    stream: tm_realtime
+    port: 10017
     packetPreprocessorClassName: com.example.myproject.MyPacketPreprocessor
 
   - name: udp-out
@@ -43,7 +55,7 @@ mdb:
   # Valid loaders are: sheet, xtce or fully qualified name of the class
   - type: xtce
     args:
-      file: mdb/xtce.xml
+      file: mdb/tmp0000.xml
 
 # Configuration for streams created at server startup
 streamConfig:
@@ -58,4 +70,3 @@ streamConfig:
   tc:
     - name: "tc_realtime"
       processor: "realtime"
-
