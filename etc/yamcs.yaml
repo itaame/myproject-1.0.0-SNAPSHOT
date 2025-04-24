@@ -26,6 +26,12 @@ yamcs-web:
     - label: SOP List
       url: https://docs.google.com/spreadsheets/d/10bzo_9uKJRIeZ1qC1bL4o_gg7-sEht-Poh6t9heCXIk/edit?gid=195315296#gid=195315296s/d/1icXf5wbcGN8gcz8PLHkEV6IasDvZckVcSsBtnycWjmY/edit?gid=0#gid=0
       external: true
+    - label: COMMS
+      url: ts3server://mcc-comms.zap.cloud?password=Asclepios%C3%A9%C3%A0%C3%A9%28%40
+      external: true
+    - label: Shifts Plan
+      url: https://docs.google.com/spreadsheets/d/1dcqYi1YO3S1GzzjGFVprn0jCc030c7laT5TkOSi3bqA/edit?gid=0#gid=0
+      external: true
   utc: true
   
 buckets:
