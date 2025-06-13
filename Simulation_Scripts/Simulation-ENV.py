@@ -89,7 +89,3 @@ while True :
     tm_socket.sendto(packet2, (TM_SEND_ADDRESS, TM_SEND_PORT)) 
     seq_count += 1
     sleep(1/RATE)                           
- 
-
-
-                          
