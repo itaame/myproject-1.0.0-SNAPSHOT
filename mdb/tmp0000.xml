@@ -244,11 +244,7 @@
 					<ParameterRefEntry parameterRef="CO2_level"/>
 					<ParameterRefEntry parameterRef="Humidity_Level"/>
 					<ParameterRefEntry parameterRef="Temperature"/>
-					<ParameterRefEntry parameterRef="Airlock_Pressure"/>
-					<ParameterRefEntry parameterRef="Cabin_Pressure"/>
-					<ParameterRefEntry parameterRef="Ammonia_Level"/>
-					<ParameterRefEntry parameterRef="Air_Quality"/>
-					<ParameterRefEntry parameterRef="Airlock_State"/>
+					<ParameterRefEntry parameterRef="Gas_Level"/>
 				</EntryList>
 				<BaseContainer containerRef="TelemetryPacket">
 					<RestrictionCriteria>
