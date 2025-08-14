@@ -239,7 +239,7 @@
 					</RestrictionCriteria>
 				</BaseContainer>
 			</SequenceContainer>
-			<SequenceContainer name="ENV">
+			<SequenceContainer name="ECLSS">
 				<EntryList>
 					<ParameterRefEntry parameterRef="CO2_level"/>
 					<ParameterRefEntry parameterRef="Humidity_Level"/>
