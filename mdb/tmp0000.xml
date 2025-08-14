@@ -192,8 +192,6 @@
 			<Parameter name="CO2_level" parameterTypeRef="float_t_CO2"/>
 			<Parameter name="Humidity_Level" parameterTypeRef="float_t_Hum"/>
 			<Parameter name="Temperature" parameterTypeRef="float_t_Temp"/>
-			<Parameter name="Test_Humidity_Level" parameterTypeRef="float_t_Hum"/>
-			<Parameter name="Test_Temperature" parameterTypeRef="float_t_Temp"/>
 			<Parameter name="Airlock_Pressure" parameterTypeRef="float_t_Pres"/>
 			<Parameter name="Cabin_Pressure" parameterTypeRef="float_t_Pres"/>
 			<Parameter name="Ammonia_Level" parameterTypeRef="float_t_amm"/>
